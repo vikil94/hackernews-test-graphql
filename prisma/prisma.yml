@@ -1,0 +1,9 @@
+# The HTTP request for your Prsima API
+endpoint: ''
+
+# Points to the file that contains your datamodel
+datamodel: datamodel.prisma
+
+generate: 
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
